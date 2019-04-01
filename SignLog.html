@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cluas Éireann - Sign-up/Log-in</title>
+<link rel=stylesheet type="text/css" href="css/SignLog.css"/>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="header">		
+		<img src="img/Sitelogo.png" alt="Crest" height="156px" width="200px">
+        <h1>Cluas <br> Éireann</h1>
+	</div>
+		<div class="header-right">
+                <a href="index.html">Home Page</a>
+				<a href="SignLog.html">Sign-Up and Login</a>
+				<a href="AllNews.html">All News</a>
+                <a href="ContactUs.html">Contact Us</a>
+				<a style="background-color: #757575"><div class="Searchbar">
+					<input type="text" placeholder="Search..">
+				</div></a>
+		</div>
+	<aside class="aside aside-1">
+		<br>
+		<br>
+		<div id="ContactForm">
+			<h2>Log in here:</h2>
+				<form action="/cgi-bin/textcontrols.pl" method="post">
+					<fieldset color="blue">
+                        <p><label>Name: <input type="text" name="Name" size="10" maxlength="25" id="name"></label></p>
+                        <p><label>Password: <input type="text" name="Email" size="10" maxlength="25" id="email"></label></p>
+					<p><input type="submit" value="Submit"></p>
+					</fieldset>
+				</form>
+			<br>
+		</div>
+	</aside>
+	<aside class="aside aside-2">
+		<br>
+		<br>
+		<div id="ContactForm">
+			<h2>Or sign up here:</h2>
+				<form action="/cgi-bin/textcontrols.pl" method="post">
+					<fieldset color="blue">
+                        <p><label>Name: <input type="text" name="Name" size="10" maxlength="25" id="name"></label></p>
+                        <p><label>Email: <input type="text" name="Email" size="10" maxlength="25" id="email"></label></p>
+                        <p><label>Phone: <input type="text" name="Telephone" size="10" maxlength="10" id="Telephone"></label></p>
+						<p><label>Password: <input type="text" name="Email" size="10" maxlength="25" id="email"></label></p>
+						<p><label>Confirm Password: <input type="text" name="Email" size="10" maxlength="25" id="email"></label></p>
+					<p><input type="submit" value="Submit"></p>
+					</fieldset>
+				</form>
+			<br>
+		</div>
+		<br>
+		<br>
+	</aside>
+<div class="footer">
+	<div id="footerLeft">	
+	<ul>
+		<li><a href="index.html">Home Page</a></li>
+		<li><a href="SignLog.html">Sign-Up and Login</a></li>
+	</ul>
+	</div>
+	<div id="footerRight">
+	<ul>
+		<li><a href="AllNews.html">All News</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+	</ul>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
