@@ -1,0 +1,157 @@
+li {
+	list-style-type: none;
+}
+input {
+	font-size: 1em;
+}
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    border: solid black 5px;
+	width: 100%;
+	height: 200px;
+}
+
+@media screen and (min-width: 980px) {
+  h1 {
+     font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  h1 {
+     font-size: 3.25em; 
+  }
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+     font-size: 2.5em;
+  }
+  div#ContactForm h2{
+    font-size: 2em;
+}
+}
+@media screen and (max-width: 540px) {
+  .header img {
+     height: 115px;
+	 width: 150px;
+  }
+}
+@media screen and (min-width: 540px) {
+.header img {
+		height: 141px ;
+		width: 180px;
+}
+    div#ContactForm p{
+    font-size: 1.5em;
+}
+    div#ContactForm h2{
+    font-size: 2.75em;
+}
+}
+@media screen and (min-width: 980px) {
+  .header img {
+     height: 156px;
+	 width: 200px;
+  }
+    div#ContactForm p{
+    font-size: 2em;
+}
+    div#ContactForm h2{
+    font-size: 3.5em;
+}
+}
+
+.header {
+	background-color: #f1f1f1;
+	color: black;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-right a {
+  color: black;
+  padding: 12px;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row-wrap;
+  display: inline-block;
+}
+
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+	background-color: darkgray;
+	color: black;
+	text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+  .header a {
+    float: none;
+    display: block;
+  }
+  .header-right a {
+    float: none;
+	display: block;
+  }
+}
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+@media all and (min-width: 980px) {
+
+  .footer  { order: 4; }
+}
+
+.footer a {
+	color: white;
+	font-size: 1.2em;
+}
+.footer p {
+	color: white;
+	text-align: center;
+	font-size: 1em;
+}
+#footerLeft { width: 47%; 
+			float: left; 
+			text-align: center; 
+			}
+#footerRight { width: 47%; 
+			float: right;
+			text-align: center; 
+			}
+
+div#ContactForm {
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+    width: 50vw;
+	min-width: 300px;
+}
+div#ContactForm fieldset  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+}
+h2 {
+	padding-left: 3vw;
+}
+br {
+	font-size: 2em;
+}

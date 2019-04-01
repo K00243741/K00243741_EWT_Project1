@@ -1,0 +1,273 @@
+li {
+	list-style-type: none;
+}
+input {
+	font-size: 1em;
+}
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    border: solid black 5px;
+	width: 100%;
+	height: 200px;
+}
+
+.Article h2 {
+	font-size: 3em;
+}
+
+.Article h3 {
+	font-size: 2em;
+	}
+.Article h4 {
+	font-size: 1.5em;
+}
+
+.Article p {
+	font-size: 1.25em;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.advert2 {
+  height: auto;
+  width: 90%;
+  max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (min-width: 980px) {
+  h1 {
+     font-size: 4em;
+  }
+  .advert2 {
+	padding-top: 20em;  
+	max-width: 100%;
+	}
+	.Article h2 {
+	font-size: 3em;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+	.Article h3 {
+	font-size: 2em;
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+		.Article h4 {
+	font-size: 1.5em;
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+  h1 {
+     font-size: 3.25em; 
+  }
+    .advert2 {
+	 max-height: 500px;
+	 max-width: 50%;
+  }
+    .Article p {
+	 font-size: 1em;
+	 padding-left: 25px;
+	 padding-right: 25px;
+  }
+  .Article h2, h3, h4 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.art4pic {
+	width: 90%;
+	height: auto;
+	max-height: 75vw;
+	padding-left: 4vw;
+}
+}
+@media screen and (max-width: 540px) {
+  h1 {
+     font-size: 2.5em;
+  }
+  .advert2 {
+	 max-height:300px;
+	 max-width: 50%;
+  }
+  .Article h2, h3, h4 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+  .Article p {
+	  font-size: 1em;
+	  padding-left: 25px;
+	  padding-right: 25px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header img {
+     height: 115px;
+	 width: 150px;
+  }
+}
+@media screen and (min-width: 540px) {
+.header img {
+		height: 141px ;
+		width: 180px;
+}
+}
+@media screen and (min-width: 980px) {
+  .header img {
+     height: 156px;
+	 width: 200px;
+  }
+}
+
+.header {
+	background-color: #f1f1f1;
+	color: black;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-right a {
+  color: black;
+  padding: 12px;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row-wrap;
+  display: inline-block;
+}
+
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+	background-color: darkgray;
+	color: black;
+	text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+  .header a {
+    float: none;
+    display: block;
+  }
+  .header-right a {
+    float: none;
+	display: block;
+  }
+}
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+.aside-1 {
+  background: white;
+  border: 5em, black, solid;
+}
+
+.aside-2 {
+  background: white;
+}
+
+@media all and (min-width: 540px) {
+  .aside { flex: 0 0 1; }
+}
+@media all and (min-width: 980px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 980px) {
+  .Article { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .Article { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+	
+.advert1 {
+  width: 90%;
+  height: auto;
+  padding-left: 5vw;
+}
+
+.footer a {
+	color: white;
+	font-size: 1.2em;
+}
+.footer p {
+	color: white;
+	text-align: center;
+	font-size: 1em;
+}
+#footerLeft { width: 47%; 
+			float: left; 
+			text-align: center; 
+			}
+#footerRight { width: 47%; 
+			float: right;
+			text-align: center; 
+			}
+.contentodd {
+	background-color: darkgray;
+}
+.contenteven {
+	background-color: #f1f1f1;
+}
+.contentodd a {
+	list-style-type: none;
+	display: block;
+	padding-left: 5vw;
+	color: whitesmoke;
+	border: 1px, solid, black;
+	font-size: 1.5em;
+}
+
+.contenteven a {
+	list-style-type: none;
+	display: block;
+	padding-left: 5vw;
+	color: black;
+	border: 1px, solid, black;
+	font-size: 1.5em;
+}
+
+.contentodd p {
+	list-style-type: none;
+	display: block;
+	padding-left: 5vw;
+	color: white;
+	border: 1px, solid, black;
+	font-size: 1.5em;
+}
+
+.contenteven p {
+	list-style-type: none;
+	display: block;
+	padding-left: 5vw;
+	color: black;
+	border: 1px, solid, black;
+	font-size: 1.5em;
+}
+
+.contentodd img {
+	height: 220px;
+	width: 350;
+}
+.contenteven img {
+	height: 220px;
+	width: 350px;
+}
